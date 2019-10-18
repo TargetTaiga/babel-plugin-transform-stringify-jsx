@@ -1,0 +1,41 @@
+{
+  "name": "babel-plugin-transform-stringify-jsx",
+  "version": "4.0.0",
+  "description": "stringify-jsx plugin for babel",
+  "main": "dist/stringify-jsx.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "rollup -c",
+    "build:w": "rollup -c -w",
+    "test": "jest"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TargetTaiga/babel-plugin-transform-stringify-jsx.git"
+  },
+  "author": {
+    "name": "targettaiga",
+    "email": "targettaiga@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TargetTaiga/babel-plugin-transform-stringify-jsx/issues"
+  },
+  "homepage": "https://github.com/TargetTaiga/babel-plugin-transform-stringify-jsx#readme",
+  "keywords": [
+    "jsx",
+    "templates",
+    "html",
+    "react",
+    "mustache",
+    "stringify-jsx",
+    "jsx-adaptation",
+    "babel"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "jest": "^24.9.0",
+    "rollup": "^1.23.1"
+  }
+}

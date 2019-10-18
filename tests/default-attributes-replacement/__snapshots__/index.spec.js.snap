@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should replace default JSX attributes 1`] = `"const div = \`<div><label for=\\"button\\">Button</label><button id=\\"button\\" class=\\"myButton\\">Click me</button></div>\`;"`;

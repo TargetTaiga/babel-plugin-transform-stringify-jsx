@@ -13,7 +13,7 @@ babel.transform('code', { plugins: [['transform-stringify-jsx', { /* stringify-j
 ```
 {
   "parserOpts": {
-    "plugins": ["jsx", "flow"]
+    "plugins": ["jsx"]
   },
   "plugins": [["transform-stringify-jsx", { /* stringify-jsx options */ }]]
 }
